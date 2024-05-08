@@ -1,0 +1,27 @@
+.container {
+    width: 300px; /* Adjust width as needed */
+    margin-left: 20px; /* Align to the left */
+}
+
+.heading {
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+button.submitBtn {
+    margin-top: 10px; /* Add space between input fields and button */
+    align-self: flex-start; /* Align button to the left */
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+.fullName {
+    margin-top: 10px; /* Add space between button and full name */
+}
